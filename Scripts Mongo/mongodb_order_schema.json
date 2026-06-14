@@ -1,0 +1,28 @@
+{
+  "_id": "e481f51cbdc54678b7cc49136f2d6af7",
+  "customer_id": "9ef432eb6251297304e76186b10a928d",
+  "order_status": "delivered",
+  "timestamps": {
+    "purchase": "2017-10-02T10:56:33",
+    "approved": "2017-10-02T11:07:15",
+    "carrier_delivered": "2017-10-04T19:55:00",
+    "customer_delivered": "2017-10-10T21:25:13",
+    "estimated_delivery": "2017-10-18T00:00:00"
+  },
+  "items": [
+    {
+      "item_id": "sample_item_1",
+      "product_id": "sample_product_uuid_1",
+      "seller_id": "sample_seller_uuid_1",
+      "price": 123.45,
+      "freight_value": 10.5
+    }
+  ],
+  "payments": [
+    {
+      "type": "credit_card",
+      "installments": 1,
+      "value": 133.95
+    }
+  ]
+}
